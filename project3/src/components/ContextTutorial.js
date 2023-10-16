@@ -3,12 +3,12 @@ import User from "./User";
 import Login from "./Login";
 export const AppContext = createContext(null);
 
-export default function () {
+export default function() {
   const [userName, setUserName] = useState("");
   return (
     <AppContext.Provider value={{ userName, setUserName }}>
-      <Login userName={userName} />
       <User setUserName={setUserName} />
+      <Login userName={userName} />
     </AppContext.Provider>
   );
 }

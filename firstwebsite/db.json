@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Mozzarella Sticks",
+      "description": "Crispy fried mozzarella sticks served with marinara sauce.",
+      "price": 10.99,
+      "image": "https://example.com/images/appetizers/mozzarella_sticks.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Edamame",
+      "description": "Steamed soybeans served with salt.",
+      "price": 6.99,
+      "image": "https://example.com/images/appetizers/edamame.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Guacamole and Chips",
+      "description": "Fresh guacamole and tortilla chips served with salsa.",
+      "price": 8.99,
+      "image": "https://example.com/images/appetizers/guacamole_and_chips.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Steak frites",
+      "description": "Grilled New York strip steak served with French fries and béarnaise sauce.",
+      "price": 29.99,
+      "image": "https://example.com/images/entrees/steak_frites.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Salmon with roasted vegetables",
+      "description": "Pan-seared salmon served with roasted vegetables and lemon butter sauce.",
+      "price": 26.99,
+      "image": "https://example.com/images/entrees/salmon_with_roasted_vegetables.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pad Thai",
+      "description": "Stir-fried rice noodles with shrimp, chicken, or tofu, vegetables, and peanuts.",
+      "price": 18.99,
+      "image": "https://example.com/images/entrees/pad_thai.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten chocolate center served with vanilla ice cream.",
+      "price": 9.99,
+      "image": "https://example.com/images/desserts/chocolate_lava_cake.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Tiramisu",
+      "description": "Ladyfingers dipped in espresso and layered with mascarpone cream and cocoa powder.",
+      "price": 8.99,
+      "image": "https://example.com/images/desserts/tiramisu.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ice Cream Sundae",
+      "description": "Two scoops of ice cream topped with whipped cream, chocolate sauce, and sprinkles.",
+      "price": 6.99,
+      "image": "https://example.com/images/desserts/ice_cream_sundae.jpg"
+    }
+  ]
+}

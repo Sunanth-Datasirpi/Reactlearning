@@ -1,6 +1,6 @@
 import { type } from "@testing-library/user-event/dist/type";
 import React, { useReducer } from "react";
-
+//usereducer hook
 const reduce = (state, actions) => {
   switch (actions.type) {
     case "Increment":
