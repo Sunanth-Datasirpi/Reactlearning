@@ -11,6 +11,8 @@ import NewProducts from "./components/NewProducts";
 import Users from "./components/Users";
 import UserDetails from "./components/UserDetails";
 import Admin from "./components/Admin";
+import PortalDemo from "./components/PortalDemo";
+import PortalsWorking from "./components/PortalsWorking";
 const LazyAbout = React.lazy(() => import("./components/About"));
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>
+      <PortalDemo />
+      <PortalsWorking />
     </>
   );
 }
