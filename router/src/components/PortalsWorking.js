@@ -7,7 +7,7 @@ export default function PortalsWorking() {
   const [isOpen, setIsOpen] = useState(false);
   return ReactDOM.createPortal(
     <>
-      <div>
+      <div onClick={() => console.log("clicked")}>
         <button onClick={() => setIsOpen(true)}>Open Modal</button>
 
         <Modal open={isOpen} onClose={() => setIsOpen(false)}>

@@ -13,11 +13,14 @@ import UserDetails from "./components/UserDetails";
 import Admin from "./components/Admin";
 import PortalDemo from "./components/PortalDemo";
 import PortalsWorking from "./components/PortalsWorking";
+import Profile from "./components/Profile";
+import Login from "./components/Login";
+import { AuthProvider } from "./components/Auth";
 const LazyAbout = React.lazy(() => import("./components/About"));
 
 function App() {
   return (
-    <>
+    <AuthProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -39,11 +42,13 @@ function App() {
           <Route path=":Id" element={<UserDetails />} />
           <Route path="admin" element={<Admin />} />
         </Route>
+        <Route path="profile" element={<Profile />} />
+        <Route path="login" element={<Login />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <PortalDemo />
       <PortalsWorking />
-    </>
+    </AuthProvider>
   );
 }
 
