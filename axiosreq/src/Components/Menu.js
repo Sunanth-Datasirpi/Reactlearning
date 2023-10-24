@@ -4,7 +4,7 @@ import axios from "axios";
 function Menu() {
   const [records, setRecords] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:3030/menu").then((res) => {
+    axios.get("http://localhost:3000/menu").then((res) => {
       setRecords(res.data);
       console.log(records);
     });
