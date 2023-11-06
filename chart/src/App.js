@@ -4,6 +4,7 @@ import BarChart from "./components/BarChart";
 import { UserData } from "./Data";
 import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
+import Condition from "./components/Condition";
 
 function App() {
   const [userData, setUserData] = useState({
@@ -13,7 +14,6 @@ function App() {
         label: "Users Gained",
         data: UserData.map((data) => data.userGain),
         backgroundColor: ["yellow", "green", "purple", "red", "black"],
-        borderColor: "black",
       },
     ],
   });
@@ -32,6 +32,7 @@ function App() {
         <h2>Pie Chart</h2>
         <PieChart chartData={userData} />
       </div>
+      <Condition />
     </div>
   );
 }
