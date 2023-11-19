@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { Image } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 function Bootstrap() {
   return (
@@ -94,6 +95,19 @@ function Bootstrap() {
         <p className="m-3 p-3 w-50 text-bg-secondary">HStack3</p>
       </div>
       <div className="shadow bg-light m-3 p-3">Shadow</div>
+      <>
+        <Button className="button-color">Primary</Button>
+        <Button variant="secondary">Secondary</Button>{" "}
+        <Button variant="success">Success</Button>{" "}
+        <Button variant="warning">Warning</Button>{" "}
+        <Button variant="danger">Danger</Button>{" "}
+        <Button variant="info">Info</Button>{" "}
+        <Button variant="light" className="button-color">
+          Light
+        </Button>{" "}
+        <Button variant="dark">Dark</Button>
+        <Button variant="link">Link</Button>
+      </>
     </Container>
   );
 }

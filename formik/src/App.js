@@ -30,7 +30,7 @@ function App() {
 
             <label htmlFor="password">Password</label>
             <br />
-            <Field type="password" name="password"></Field>
+            <Field type="password" name="newpassword"></Field>
             <br />
             {errors.password && <small>{errors.password}</small>}
             <br />

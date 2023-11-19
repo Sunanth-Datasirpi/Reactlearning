@@ -2,7 +2,7 @@ import React from "react";
 import { useAuth } from "./Auth";
 import { useNavigate } from "react-router-dom";
 
-function Profile() {
+function Profile(username) {
   const auth = useAuth();
   const navigate = useNavigate();
 
@@ -13,8 +13,7 @@ function Profile() {
 
   return (
     <div>
-      Welcome {auth.user}
-      <button onClick={handleLogout}>Logout</button>
+      Welcome {auth.user},<button onClick={handleLogout}>Logout</button>
     </div>
   );
 }
