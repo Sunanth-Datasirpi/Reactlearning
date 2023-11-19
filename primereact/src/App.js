@@ -7,6 +7,9 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 import PrimeButtons from "./Components/PrimeButtons";
 import { Toast } from "primereact/toast";
 import { Button } from "primereact/button";
+import "./styles.css";
+import Accordion from "./Components/accordian/Accordian";
+import Editable from "./Components/editable/Editable";
 
 function App() {
   const [date, setDate] = useState();
@@ -44,6 +47,13 @@ function App() {
 
       <i className="pi pi-spin pi-spinner" style={{ fontSize: "2rem" }}></i>
       <i className="pi pi-spin pi-cog" style={{ fontSize: "2rem" }}></i>
+      <br />
+      <Accordion
+        title="Click here to expand"
+        content="Creating Reusable Components"
+      />
+      <br />
+      <Editable />
     </div>
   );
 }

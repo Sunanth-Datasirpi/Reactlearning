@@ -20,7 +20,6 @@ export default function PrimeButtons() {
         loading={loading}
         onClick={load}
       />
-      <Form></Form>
     </div>
   );
 }
