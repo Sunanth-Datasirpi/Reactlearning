@@ -1,0 +1,42 @@
+/* Styling the react using CSS */
+/* Styling for the entire app container */
+body {
+  font-family: Arial;
+  background-color: #e1d9d9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Styling for input field and buttons */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the todo list items */
+div.completed > p {
+  text-decoration: line-through;
+  color: #999;
+}
